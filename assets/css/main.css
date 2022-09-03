@@ -3377,7 +3377,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 12em 0 8em 0 ;
 	}
 
 		#banner .inner {
@@ -3991,7 +3991,7 @@ input, select, textarea {
 			.wrapper.spotlight .image {
 				margin: 0 0 1em 0 !important;
 				max-width: 85%;
-				width: 12em;
+				width: 8em;
 			}
 
 		}

@@ -25,10 +25,7 @@
       <!-- Banner -->
       <section id="banner">
         <div class="inner">
-          <div class="logo">
-            <span class="icon"><i class="fas fa-paw"></i></span>
-          </div>
-          <h2>Paw Prints</h2>
+          <h2>Paw Prints <i class="fas fa-paw"></i></h2>
           <p>
             Dog Walking & Pet Care Services for the Myland and Highwoods area.
           </p>
@@ -60,7 +57,7 @@
           <div class="inner">
             <h2 class="major">Paw Prints' Pooches</h2>
             <p>Showing off some of our current regulars and favourites!</p>
-            <section class="features row">
+            <section class="row">
               <div class="col-4">
                 <span class="image fit">
                   <img src="images/gallery/1.jpeg" alt="A picture of dog" />
@@ -91,7 +88,6 @@
                   <img src="images/gallery/6.jpeg" alt="A picture of dog" />
                 </span>
               </div>
-
             </section>
           </div>
         </section>
@@ -101,26 +97,30 @@
       <section id="footer">
         <div class="inner">
           <h2 class="major">Get in touch</h2>
-          <form method="post" action="#">
+          <form name="contact" method="post" data-netlify="true">
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" required />
               </div>
               <div class="field">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
+                <input type="email" name="email" id="email" required />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  required
+                ></textarea>
               </div>
             </div>
             <ul class="actions">
               <li><input type="submit" value="Send Message" /></li>
             </ul>
           </form>
-
         </div>
       </section>
     </div>
